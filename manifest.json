@@ -1,0 +1,15 @@
+{
+ "manifest_version": 2,
+ "permissions": ["storage"],
+
+ "name": "Persistent Shopping Bag",
+ "version": "1.0",
+ "description": "Collect links for anything you may want to buy later!",
+ "scripts": ["main.js"],
+ "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png"
+      }
+    }
+}
